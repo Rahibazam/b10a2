@@ -1,0 +1,189 @@
+/* shared styles */
+
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: "Inter", serif;
+}
+
+.primary-container{
+    width: 75%;
+    margin: 0px auto;
+}
+
+.btn-primary{
+    background-color: #E6533C;
+    border-radius: 42px;
+    border: none;
+    padding: 16px 46.5px;
+}
+
+.btn-primary > a{
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-secondary{
+    background-color: rgba(17, 17, 17, 0);
+    border: 1px solid #FFFFFF;
+    border-radius: 42px;
+    padding: 16px 46.5px;
+}
+
+.btn-secondary > a{
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+/* nav styles */
+
+header{
+    background: #111111;
+     /* background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(119, 119, 119, 0)); */
+     background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(119, 119, 119, 0.1), rgba(17, 17, 17, 1));
+     padding: 50px 0px 30px 0px;
+}
+
+header > .primary-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #E6533C;
+}
+
+.nav-links{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 3px 20px 3px 3px;
+
+
+}
+
+.nav-links > li{
+    list-style: none;
+}
+
+#home{
+    background-color: #E6533C;
+    border-radius: 46px;
+    padding: 8px 20px;
+}
+
+
+/* banner styles */
+
+.banner > .primary-container{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.banner-content{
+    padding: 0px;
+    width: 50%;
+}
+
+.banner-title{
+    color: white;
+    font-size: 3.125rem;
+    line-height: 200%;
+}
+
+.banner-title > h1 > span{
+    font-family: "Mea Culpa", serif;
+    font-weight: normal;
+    font-size: 8.875rem;
+}
+
+.banner-description{
+    color: white;
+    font-size: 1rem;
+    margin: 28px auto;
+}
+
+.banner-image{
+    background-image: url(../images/Images\ 2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    display: flex;
+    width: 50%;
+    height: 580px;
+}
+
+.workout-videos{
+    width: 130px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 17px 23px 0px 24px;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+.workout-videos > h3{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.workout-videos > p{
+    font-size: 0.813rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.video-tutorial{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1px 23px 0px 24px;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 450px;
+    left: -20px;
+}
+
+.video-tutorial-content{
+    position: absolute;
+    left: 70px;
+}
+
+.video-tutorial-content > h3{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.video-tutorial-content > p{
+    font-size: 0.813rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.circle{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: #E6533C;
+    border: #E6533C solid 2px;
+    position: absolute;
+    left: 10px;
+}
