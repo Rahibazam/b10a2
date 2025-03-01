@@ -6,6 +6,18 @@
 
 body{
     font-family: "Inter", serif;
+    background-color: black;
+    color: white;
+}
+
+.secondary-font{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.primary-font{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
 }
 
 .primary-container{
@@ -242,6 +254,48 @@ header > .primary-container{
     margin-right: 10px;
 }
 
+
+/* habits section styles */
+
+.habits{
+    margin-top: 100px;
+}
+
+.habit-content{
+    text-align: center;
+    width: 55%;
+    margin: 58px auto;
+}
+
+.habit-content > .secondary-font{
+    margin-bottom: 14px;
+}
+
+.habit-image-container{
+    display: flex;
+}
+
+.habit-image{
+    width: 231px;
+    height: 274px;
+    padding: 25px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+:hover.habit-image{
+    transform: scale(1.1);
+}
+
+.habit-image > img{
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.habit-image-title{
+    font-size: 1.125rem;
+    margin: 20px auto 6px auto;
+}
 
 
 
