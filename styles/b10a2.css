@@ -416,4 +416,34 @@ header > .primary-container{
         margin: auto;
     }
 
+    .extra-mile-content{
+        width: 80%;
+        margin: 20px auto 10px auto;
+        padding: auto;
+    }
+
+    .extra-mile > .primary-container {
+        flex-direction: column;
+    }
+
+    .extra-mile-content > .primary-font{
+        width: 100%;
+    }
+
+    .extra-mile-content > .secondary-font{
+        width: 100%;
+
+    }
+
+    .extra-mile-content > .btn-primary{
+        width: 100%;
+        padding: 16px 46.5px;
+        transition: 0.2s;
+    }
+
+    .extra-mile-img{
+        width: 81%;
+        height: 51%;
+    }
+
 }
