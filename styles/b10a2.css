@@ -18,6 +18,14 @@ body{
     border-radius: 42px;
     border: none;
     padding: 16px 46.5px;
+    transition: 0.2s;
+}
+
+:hover.btn-primary{
+    background-color: white;
+    border-radius: 42px;
+    border: none;
+    padding: 16px 46.5px;
 }
 
 .btn-primary > a{
@@ -27,11 +35,20 @@ body{
     text-decoration: none;
 }
 
+:hover.btn-primary > a{
+    color: #E6533C;
+}
+
 .btn-secondary{
     background-color: rgba(17, 17, 17, 0);
     border: 1px solid #FFFFFF;
     border-radius: 42px;
     padding: 16px 46.5px;
+    transition: 0.2s;
+}
+
+:hover.btn-secondary{
+    background-color: #FFFFFF;
 }
 
 .btn-secondary > a{
@@ -41,13 +58,15 @@ body{
     text-decoration: none;
 }
 
+:hover.btn-secondary > a{
+    color: #111111;
+}
 
 
 /* nav styles */
 
 header{
     background: #111111;
-     /* background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(119, 119, 119, 0)); */
      background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(119, 119, 119, 0.1), rgba(17, 17, 17, 1));
      padding: 50px 0px 30px 0px;
 }
@@ -61,6 +80,12 @@ header > .primary-container{
     font-size: 2.25rem;
     font-weight: 800;
     color: #E6533C;
+    transition: 0.2s;
+}
+
+:hover.header-logo{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .nav-links{
@@ -77,12 +102,37 @@ header > .primary-container{
 
 .nav-links > li{
     list-style: none;
+    transition: 0.2s;
+}
+
+:hover.link-1{
+    color: #E6533C;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+:hover.link-2{
+    color: #E6533C;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+:hover.link-3{
+    color: #E6533C;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #home{
     background-color: #E6533C;
     border-radius: 46px;
     padding: 8px 20px;
+}
+
+:hover#home{
+    background-color: #FFFFFF;
+    color: #E6533C;
+    cursor: pointer;
 }
 
 
@@ -186,4 +236,8 @@ header > .primary-container{
     border: #E6533C solid 2px;
     position: absolute;
     left: 10px;
+}
+
+.banner-content > .btn-primary{
+    margin-right: 10px;
 }
