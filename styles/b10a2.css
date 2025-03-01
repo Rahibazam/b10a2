@@ -370,4 +370,16 @@ header > .primary-container{
         left: 15px;
     }
 
+
+    .habit-content{
+        width: 90%;
+    }
+
+    .habit-image-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
 }
