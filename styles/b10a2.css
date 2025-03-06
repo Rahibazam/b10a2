@@ -407,7 +407,94 @@ td{
     margin-bottom: 34px;
 }
 
+/* meet our team section styles */
 
+.meet-our-team > .primary-container{
+    text-align: center;
+    margin: 88px auto 88px auto;
+}
+
+.our-team-content{
+    margin: auto auto 50px auto;
+    width: 55%;
+}
+
+.our-team-content > .primary-font{
+    margin-top: 20px;
+}
+
+.teams{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.team-1-container, .team-2-container, .team-3-container, .team-4-container, .team-5-container, .team-6-container{
+    padding: 15px;
+}
+
+.team-1{
+    border-radius: 18px;
+    padding: 20px;
+    width: 326.67px;
+    height: 272px;
+    background-image: url(../images/trainer1.png);
+    background-size: cover;
+}
+
+.team-2{
+    border-radius: 18px;
+    padding: 20px;
+    width: 326.67px;
+    height: 272px;
+    background-image: url(../images/trainer2.png);
+    background-size: cover;
+}
+
+.team-3{
+    border-radius: 18px;
+    padding: 20px;
+    width: 326.67px;
+    height: 272px;
+    background-image: url(../images/trainer3.png);
+    background-size: cover;
+}
+
+.team-4{
+    border-radius: 18px;
+    padding: 20px;
+    width: 326.67px;
+    height: 272px;
+    background-image: url(../images/trainer4.png);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.team-5{
+    border-radius: 18px;
+    padding: 20px;
+    width: 326.67px;
+    height: 272px;
+    background-image: url(../images/trainer5.png);
+    background-size: cover;
+}
+
+.team-6{
+    border-radius: 18px;
+    padding: 20px;
+    width: 326.67px;
+    height: 272px;
+    background-image: url(../images/trainer6.png);
+    background-size: cover;
+}
+
+.team-info{
+    text-align: left;
+    position: relative;
+    top: 230px;
+}
 
 
 /* desktop responsiveness */
