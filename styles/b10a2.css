@@ -496,6 +496,72 @@ td{
     top: 230px;
 }
 
+/* footer styles */
+
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 66px;
+    padding-bottom: 35px;
+}
+
+.footer-first-half > .primary-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 78px;
+}
+
+.footer-left{
+    width: 35%;
+}
+
+.footer-logo{
+    color: #E6533C;
+    font-size: 4.375rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.footer-mid > ol{
+    color: rgba(255, 255, 255, 0.5);
+    list-style: none;
+    margin-left: -37px;
+    font-size: 1.438rem;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.footer-right > ol{
+    color: rgba(255, 255, 255, 0.5);
+    list-style: none;
+    margin-left: -37px;
+    font-size: 1.438rem;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.footer-link-1, .footer-link-2, .footer-link-3, .footer-link-4, .footer-link-5, .footer-link-6, .footer-link-7, .footer-link-8{
+    list-style: none;
+    transition: 0.2s;
+}
+
+:hover.footer-link-1, :hover.footer-link-2, :hover.footer-link-3, :hover.footer-link-4, :hover.footer-link-5, :hover.footer-link-6, :hover.footer-link-7, :hover.footer-link-8{
+    color: #E6533C;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 36px;
+}
+
+.footer-second-half > .primary-container > .primary-font{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+
+
 
 /* desktop responsiveness */
 
