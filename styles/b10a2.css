@@ -703,5 +703,17 @@ hr{
         width: 100%;
     }
 
+    .footer-first-half > .primary-container{
+        flex-direction: column;
+    }
+
+    .footer-left{
+        width: 85%;
+        margin-bottom: 20px;
+    }
+
+    .footer-mid{
+        margin-bottom: 20px;
+    }
 
 }
