@@ -432,12 +432,12 @@ td{
 }
 
 .team-1-container, .team-2-container, .team-3-container, .team-4-container, .team-5-container, .team-6-container{
-    padding: 15px;
+    padding: 10px;
 }
 
 .team-1{
     border-radius: 18px;
-    padding: 20px;
+    padding: 10px;
     width: 326.67px;
     height: 272px;
     background-image: url(../images/trainer1.png);
@@ -446,7 +446,7 @@ td{
 
 .team-2{
     border-radius: 18px;
-    padding: 20px;
+    padding: 10px;
     width: 326.67px;
     height: 272px;
     background-image: url(../images/trainer2.png);
@@ -455,7 +455,7 @@ td{
 
 .team-3{
     border-radius: 18px;
-    padding: 20px;
+    padding: 10px;
     width: 326.67px;
     height: 272px;
     background-image: url(../images/trainer3.png);
@@ -464,7 +464,7 @@ td{
 
 .team-4{
     border-radius: 18px;
-    padding: 20px;
+    padding: 10px;
     width: 326.67px;
     height: 272px;
     background-image: url(../images/trainer4.png);
@@ -474,7 +474,7 @@ td{
 
 .team-5{
     border-radius: 18px;
-    padding: 20px;
+    padding: 10px;
     width: 326.67px;
     height: 272px;
     background-image: url(../images/trainer5.png);
@@ -483,7 +483,7 @@ td{
 
 .team-6{
     border-radius: 18px;
-    padding: 20px;
+    padding: 10px;
     width: 326.67px;
     height: 272px;
     background-image: url(../images/trainer6.png);
@@ -628,6 +628,14 @@ td{
         width: 87%;
     }
 
+    .teams{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .our-team-content{
+        margin: auto auto 50px auto;
+        width: 100%;
+    }
 
 
 }
